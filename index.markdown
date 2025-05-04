@@ -3,84 +3,79 @@ layout: index
 title: Home
 ---
 
-# Understanding the Trends in Assault Crimes in San Francisco
+# What New York City Traffic can Teach Us About Urban Life.
 
-Crime data is one of the most critical tools for understanding urban safety, allowing both law enforcement and residents to grasp the evolving patterns of criminal activity. In this analysis, we focus on assault crimes in San Francisco, drawing from data spanning multiple years. Assault crimes are particularly revealing because they can indicate broader societal changes—ranging from economic downturns to policy shifts, or even the impact of events like the COVID-19 pandemic.
+New York City us a living, breathing organism powered not just by people but the movement of cars, buses, trucks, and taxis weaving through its arteries. This project sets out to explore how this motion plays out across time and space using nine years of traffic volume data from the NYC Department of Transportation.
 
-Using interactive visualizations, heatmaps, and time-series analysis, we explore how assault incidents have evolved over time, identifying key patterns and potential causes behind these fluctuations.
+What I found out paints a story not only of the urban city, but a story of life and resilience.
 
-Long-Term Trends: The Rise and Fall of Assault Incidents
-A time-series analysis of reported assault crimes in San Francisco (Figure 1) shows that from 2010 to around 2018, the number of assaults remained relatively stable, fluctuating slightly but staying within the range of 10,000 to 12,000 incidents per year. However, starting in 2019, there was a sharp decline, which became particularly pronounced after 2020. By 2025, the number of recorded assaults had dropped dramatically, reaching the lowest levels in the dataset.
+# How Has NYC Traffic Changed Over Time ?
 
-# Time Series Visualisation
+I started with a basic question: Is traffic increasing or decreasing over the years. The data covers from 2012 to 2021, and while it steadily rose until 2016, there is a sharp dip in 2020 - 2021. Not suprisingly, thos were the COVID years when lockdown made burstling cities very quiet. In 2021, traffic volumes were far below 2016 peaks.
 
-Figure 1: The yearly trend of assault crimes in SF from 2010 to 2025. The number of incidents remained stable until 2018, followed by a significant decline, particularly post-2020.
+<img src="AverageDailyTrafficVolume.png" alt="Description" width="70%" height="400px">
 
-This pattern raises key questions:
+# Weekdays vs Weekends: Is Sunday the New Stay-at-Home Day?
 
-Why was there a steep decline post-2019?
+<img src="AverageTrafficVolumeByDay.png" alt="Description" width="70%" height="400px">
 
-Were certain areas more affected than others?
+By breaking down average traffic volume by day of the week, a pattern emerges.
 
-Can external events like the COVID-19 pandemic explain part of the trend?
+Sunday is the quitest day on NYC streets. It is significantly lower than weekdays. Traffic builds slowly through Monday to Friday, peaking midweek. Saturday holds its own, likely due to shopping, errands, and leisure travel. But Sunday? It's New York's deep breath.
 
-To answer these, we dive deeper into spatial analysis and interactive visualizations.
+# Hourly Pulse: When Does NYC Breathe Fastest?
 
-<img src="TimeSeriesAssault.png" alt="Description" width="70%" height="400px">
+<img src="WeekendWeekdayComp.png" alt="Description" width="70%" height="400px">
 
-# Heat Map Visualisation
+Using hourly data, we see a city waking up in unison. On weekdays, 8 AM and 5 PM are unmistakable spikes - the classic rush hours.
 
-Examining the heatmap visualization of assaults across San Francisco reveals distinct geographic patterns. Certain neighborhoods—such as the Tenderloin, Mission District, and SOMA—have consistently high concentrations of assault incidents. These areas have long been associated with higher crime rates due to socioeconomic factors, homelessness, and nightlife activity, which can lead to a greater number of violent interactions.
+Weekends tell a different story. The city rises later. Peaks come around 3 PM, likely duue to outings, errands or social plans. The calm before the Saturday night storm?
 
-<iframe src="sf_assault_heatmap.html" width="70%" height="400px"></iframe>
+# The Busiest Roads in NYC
 
-# Bokeh Visualisation
+<img src="TenBusiestRoadsInNYC.png" alt="Description" width="70%" height="400px">
 
-The COVID-19 Pandemic (2020-2022)
+If NYC's streets are veins, then the Long Island Expressway is it Aorta. It consistently records the highest traffic volume. Staten Island Expressway isn't far behind. These roads aren't just busy, they are essential.
 
-Lockdowns and social distancing reduced nightlife activity, street interactions, and bar-related violence.
+The average traffic here dwarfs other segments, raising questions about maintenance, congestion pricing, and alternate routes.
 
-Many businesses shut down or transitioned to remote work, leading to fewer people in high-crime areas.
+# Play With the Data: Build Your Own Traffic Story.
 
-San Francisco's overall crime rates dropped in early 2020, a trend observed in other major cities as well.
+<iframe src="traffic_volume_plot.html" width="70%" height="400px"></iframe>
 
-Changes in Law Enforcement Policies
+I built an interactive tool so you can filter traffic by day of week and hour — try it for yourself.
 
-San Francisco has seen shifting policing strategies, including calls for reduced law enforcement presence in certain communities and reforms aimed at decriminalizing lower-level offenses.
+Pick a Tuesday morning. Then compare it to a Sunday afternoon. Notice the shape of the curves. You can begin to anticipate the city’s flow — almost like reading a pulse chart.
 
-The shift in focus away from aggressive policing may have influenced reporting patterns.
+What would you do with this information? Leave earlier? Take another route? Choose a different delivery time?
 
-<iframe src="bokeh_assault_interactive.html" width="70%" height="400px"></iframe>
+# What Suprised Me
 
-This analysis of assault crime trends in San Francisco reveals a relatively stable period until 2019, followed by a dramatic drop post-2020. The most affected areas—such as the Tenderloin and Mission District—highlight how geography and socioeconomic conditions influence crime rates. However, the impact of COVID-19, policy changes, and shifting city dynamics complicates the story, making it essential to continue monitoring trends in the coming years.
+- Sundays are sacred. The volume dip
+- COVID's shadow on busy roads
 
-#References:
+- Few roads carry the bulk: If you reduce congestion on 5-6 major expressways, you impact most of NYC.
 
-### Impact of the COVID-19 Pandemic on Crime Rates
+# Why It Matters
 
-1. _Public Policy Institute of California (PPIC)_ - Crime trends during the pandemic, including shifts in property and violent crime.
+Understanding traffic isn’t just about commuting — it’s about how we live in a city. These patterns reveal:
 
-   - Source: [https://www.ppic.org/publication/crime-after-proposition-47-and-the-pandemic/](https://www.ppic.org/publication/crime-after-proposition-47-and-the-pandemic/)
+When we rest
 
-2. _California Policy Lab_ - Analysis of crime trends in California during the COVID-19 pandemic.
-   - Source: [https://capolicylab.org/wp-content/uploads/2021/09/Crime-in-California-During-the-Covid-19-Pandemic.pdf](https://capolicylab.org/wp-content/uploads/2021/09/Crime-in-California-During-the-Covid-19-Pandemic.pdf)
+Where we cluster
 
-### Effect of Policy Changes on Crime Rates
+How we adapt in crisis
 
-3. _Proposition 47 and Its Impact on Crime Rates_ - Reclassification of certain offenses and its effect on crime trends.
+And where our infrastructure strains
 
-   - Source: [https://www.ppic.org/publication/crime-after-proposition-47-and-the-pandemic/](https://www.ppic.org/publication/crime-after-proposition-47-and-the-pandemic/)
+Imagine urban planners using this to shape better bus routes. Or delivery companies optimizing around peak hours. Or you — choosing when to leave your apartment based on actual, data-driven patterns.
 
-4. _Center on Juvenile and Criminal Justice (CJCJ)_ - Law enforcement spending vs. crime clearance rates.
-   - Source: [https://www.cjcj.org/reports-publications/report/california-law-enforcement-agencies-are-spending-more-but-solving-fewer-crimes](https://www.cjcj.org/reports-publications/report/california-law-enforcement-agencies-are-spending-more-but-solving-fewer-crimes)
+# References
 
-### Recent Crime Trends and Law Enforcement Efforts
+Wired. (2020). Coronavirus’ Silver Lining: Less Driving, Fewer Crashes. Retrieved from https://www.wired.com/story/coronavirus-silver-lining-less-driving-fewer-crashes
 
-5. _San Francisco Government Report_ - Decline in crime rates in 2024 due to new public safety measures.
+New York Post. (2024). Years after the end of COVID, NYC remains in a ‘Long Lockdown’. Retrieved from https://nypost.com/2024/06/22/opinion/years-after-the-end-of-covid-nyc-remains-in-long-lockdown
 
-   - Source: [https://www.sf.gov/news--san-francisco-2024-crime-rates-down-city-prepares-implement-new-voter-approved-public-safety](https://www.sf.gov/news--san-francisco-2024-crime-rates-down-city-prepares-implement-new-voter-approved-public-safety)
+New York Post. (2025). Ten best billboard spots revealed — and NYC’s got two of ’em. Retrieved from https://nypost.com/2025/01/18/us-news/ten-best-billboard-spots-revealed-and-nycs-got-two-of-em
 
-6. _San Francisco Police Department Reform Efforts_ - Eight-year reform completion and crime reduction.
-   - Source: [https://www.sanfranciscopolice.org/news/sfpd-substantial-compliance-following-years-long-reform](https://www.sanfranciscopolice.org/news/sfpd-substantial-compliance-following-years-long-reform)
-
-_Note:_ These sources provide credible evidence to support claims regarding the impact of COVID-19, policy changes, and law enforcement reforms on crime rates in San Francisco.
+NYC Open Data. (2025). Traffic Volume Counts (2012–2023). NYC Department of Transportation. Retrieved from https://data.cityofnewyork.us/Transportation/Traffic-Volume-Counts/btm5-ppia

@@ -70,6 +70,8 @@ And where our infrastructure strains
 
 Imagine urban planners using this to shape better bus routes. Or delivery companies optimizing around peak hours. Or you — choosing when to leave your apartment based on actual, data-driven patterns.
 
+Explainer Jupyter Notebook (for more in-depth analysis): https://drive.google.com/file/d/1ajEfZl16hc2--JoPD353HrLBWGWWXqai/view?usp=sharing
+
 # References
 
 Wired. (2020). Coronavirus’ Silver Lining: Less Driving, Fewer Crashes. Retrieved from https://www.wired.com/story/coronavirus-silver-lining-less-driving-fewer-crashes

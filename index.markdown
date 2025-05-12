@@ -19,7 +19,7 @@ New York City's streets form a dynamic circulatory system, with vehicles constan
 - **Timeframe:** January 2012 - December 2021
 - **Limitations:** Missing summer months in some years
 - **Normalization:** All averages adjusted for recording days
-- **Explainer Notebook:** https://drive.google.com/file/d/1ajEfZl16hc2–JoPD353HrLBWGWWXqai/view?usp=sharing
+- **Explainer Notebook:** [Link to Explainer Notebook](https://drive.google.com/file/d/16QDaoPDNgvQUSlnF6FB06j2yToWe8v3j/view?usp=sharing)
 
 ## Key Findings at a Glance
 

@@ -52,7 +52,7 @@ Key observations:
 
 - **Midweek peaks** (Tue-Thu) show maximum workforce mobility
 - **Friday declines** suggest early weekend transitions
-- **Sunday's 45% drop** reflects cultural/religious day of rest patterns
+- **Sunday's drop off** reflects cultural/religious day of rest patterns
 
 Urban planners should note these patterns when scheduling:
 
@@ -74,13 +74,11 @@ _Figure 3: Distinct commuting patterns emerge between workdays (blue) and weeken
 **Weekend Characteristics:**
 
 - Gradual 11 AM - 3 PM buildup
-- 25% lower peak volumes
+- significant lower peak volumes
 
 These patterns suggest opportunities for:
 
-- Staggered work hours
-- Dynamic congestion pricing
-- Event scheduling
+Weekdays typically experience higher commuter traffic, allowing businesses to target working professionals with morning and evening promotions or services, while weekends see increased leisure travel, ideal for retail events, tourism, and family-oriented marketing. Transportation and delivery services can optimize routes and schedules based on traffic density, reducing delays and improving efficiency. Public transit authorities can adjust service frequency, and rideshare companies can implement dynamic pricing. Retailers and restaurants can plan staffing and inventory based on footfall predictions, while urban planners may schedule infrastructure projects during low-traffic periods. Real estate decisions, such as selecting locations for new stores or outlets, can also benefit from traffic insights. Additionally, media companies and event organizers can tailor content and programming to peak viewing or attendance times. Overall, understanding traffic variations enables better resource allocation, strategic planning, and customer engagement across various sectors.
 
 ## Critical Infrastructure: NYC's Traffic Arteries
 
@@ -144,9 +142,9 @@ These insights have real-world applications:
 
 ## References & Further Reading
 
-1. NYC DOT. (2023). _Annual Traffic Report_. [Link](#)
-2. MIT Urban Studies. (2022). _Pandemic Mobility Shifts_. [Link](#)
-3. Regional Plan Association. (2021). _NYC Infrastructure Stress Points_. [Link](#)
+1. NYC DOT. (2023). _Annual Traffic Report_. [Link](https://data.cityofnewyork.us/Transportation/Traffic-Volume-Counts/btm5-ppia/data_preview)
+2. MIT Urban Studies. (2022). _Pandemic Mobility Shifts_. [Link](https://dspace.mit.edu/bitstream/handle/1721.1/158056/dusp_annualreport_2022.pdf?sequence=1&isAllowed=y)
+3. Regional Plan Association. (2021). _NYC Infrastructure Stress Points_. [Link](https://rpa.org/work/reports/regional-plan-associations-100-year-history-in-nyc)
 
 ---
 
